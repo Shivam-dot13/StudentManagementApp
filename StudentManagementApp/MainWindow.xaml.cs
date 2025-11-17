@@ -11,6 +11,7 @@ namespace StudentManagementApp
         {
             InitializeComponent();
 
+            // This one line connects your View (XAML) to your ViewModel (C# Logic)
             DataContext = new ViewModels.MainViewModel();
         }
     }
